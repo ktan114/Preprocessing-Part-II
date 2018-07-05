@@ -4,11 +4,9 @@
     display: flex;
     margin-top: 72px;
     justify-content: flex-end;
-
     @media @phone {
         flex-direction: column;
         } 
-
     .cta-text {    
         font-size: 72px;
         text-align: center;
@@ -19,16 +17,13 @@
         align-items: center;
         margin: 0 70px 0 0;   
         .rotate; // Use of rotate mixin
-
         @media @tablet {
             margin: 0 auto;
             .rotate(0deg); // Negate the rotate mixin
         }
-        
         @media @phone {
             margin: 10px auto;
         }
-
         button {
             .border-radius; // Use of border-radius mixin
         }
@@ -42,7 +37,6 @@
         height: 32px;
         margin-top: 10px;
         cursor: pointer;
-
         &:hover {
             background: black;
             color: white;
